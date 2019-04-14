@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
 import './App.css';
 import Drum from "./components/Drum";
 import Footer from "./components/Footer";
@@ -10,10 +9,6 @@ class App extends Component {
       <div id="drum-machine" className="App">
       <Drum/>
       <Footer/>
-        {/* <Header />
-        <Drum />
-        <Footer/> */}
-
       </div>
     );
   }
